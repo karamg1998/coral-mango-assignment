@@ -1,0 +1,44 @@
+.division
+{
+    border: 1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.n{
+    margin-left: 5%;
+}
+.a
+{
+    margin-left: 35%;
+}
+.head
+{
+    margin-bottom: 15px;
+}
+.res-dev
+{
+    margin-bottom: 10px;
+}
+.rest
+{
+    margin-bottom: 10px;
+}
+.data-n
+{
+    margin-left: 5%;
+}
+.data-a
+{
+    margin-left: 30%;
+}
+.review
+{
+    float: right;
+    border: none;
+    background-color: royalblue;
+    border-radius: 3px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}

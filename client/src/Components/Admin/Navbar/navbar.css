@@ -1,0 +1,21 @@
+.rev,.res,.add-res{
+    text-decoration: none;
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 4px;
+    margin-right: 10px;
+}
+.nav{
+    text-align: center;
+}
+.rev.active,.res.active,.add-res.active{
+    text-decoration: none;
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 8px;
+    margin-right: 10px;
+}

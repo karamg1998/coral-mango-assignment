@@ -1,0 +1,39 @@
+.detail-page
+{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+.reviews-col
+{
+
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+.review-form
+{
+    text-align: center;
+}
+.rde,.rv{
+    font-weight: bold;
+}
+
+.rev-txt
+{
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#sub
+{
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    color: white;
+}

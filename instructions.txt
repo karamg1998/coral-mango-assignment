@@ -1,0 +1,20 @@
+**greetings**
+
+to run this application you gonna find two folders client and server, i am gonna list down the commands  for both the folders:-
+
+CLIENT:-
+
+RUN npm i
+RUN npm start (to start the react app)
+
+
+SERVER:-
+first RUN   npm i
+
+then,their is a file named .env replace the database credentials by your database credentials.
+
+save it and then
+
+RUN npm start(to start node.js app)
+
+

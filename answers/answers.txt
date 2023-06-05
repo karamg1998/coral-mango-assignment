@@ -1,0 +1,43 @@
+1. For user when he goes to localhost:3000/  user will see the list of all restaurants.
+
+   query used:-
+   we use GET method.
+   Restaurant.findAll(); to get all the listed restaurant.
+   
+   
+2. After clicking on any restaurant we see details and reviews of that restaurant.
+
+   query used:-
+   we used inner join to get the details associated to the restaurant.
+   we send id of restaurant from client side.
+   we use GET method.
+   Restaurant.findAll({include:Review,where:{id:restaurantId}});
+   here Review is another table and restaurantId is the id we got from client side.
+   
+3.Below the reviews we see input text area where we can add review for that particular restaurant.
+
+  query used:-
+  we gonna recieve id of restaurant from client side and also review.
+  we used POST method for the same.
+  Review.create({review:review,
+                 RestaurantId:id});
+                 
+
+4.For admin whe admin goes to localhost:3000/admin admin will see list of restaurant with total number of review 
+  and id of the restaurant and name of restaurant.
+  
+  query used:-
+  for this we i have used GET method.
+  i have used inner join for this.
+   Restaurant.findAll({include:Review});
+   it will return all restaurants and all reviews associated with them.
+   
+5.Admin also can add new restaurant in listing
+  for this i have used POST method.
+  from client side we have received name,address and description of the restaurant.
+  
+  query used:-
+  Restaurant.create({
+                 name:name,
+                 address:address,
+                 description:description});

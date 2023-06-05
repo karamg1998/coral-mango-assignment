@@ -1,5 +1,7 @@
 **greetings**
 
+Application created in Linux.
+
 copy the git repository link and run git clone <repository link>
 
 to run this application you gonna find two folders client and server, i am gonna list down the commands  for both the folders:-

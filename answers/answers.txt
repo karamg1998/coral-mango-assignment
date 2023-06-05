@@ -23,7 +23,7 @@
                  RestaurantId:id});
                  
 
-4.For admin whe admin goes to localhost:3000/admin admin will see list of restaurant with total number of review 
+4.For admin when admin goes to localhost:3000/admin admin will see list of restaurant with total number of review 
   and id of the restaurant and name of restaurant.
   
   query used:-
